@@ -1,3 +1,5 @@
+English | [日本語](README.ja.md)
+
 # Auto Embed
 
 This repository is distributed under the MIT License (see [LICENSE](./LICENSE)).  
