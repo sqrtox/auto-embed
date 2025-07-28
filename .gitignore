@@ -1,8 +1,2 @@
-# Local History
-/.history
-
-# destination
-dist/
-
-# Node.js
-node_modules/
+.history
+node_modules
