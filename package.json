@@ -5,7 +5,17 @@
   },
   "description": "A userscript that adds embedded images or videos below URLs.",
   "devDependencies": {
-    "@biomejs/biome": "^2.1.2"
+    "@biomejs/biome": "^2.1.2",
+    "@types/node": "^24.1.0",
+    "@typescript/native-preview": "^7.0.0-dev.20250728.1",
+    "esbuild": "^0.25.8",
+    "escape-string-regexp": "^5.0.0",
+    "mime": "^4.0.7",
+    "npm-run-all2": "^8.0.4",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.20.3",
+    "userscript-metadata": "^1.1.0",
+    "valid-filename": "^4.0.0"
   },
   "homepage": "https://github.com/sqrtox/auto-embed#readme",
   "keywords": [
@@ -21,7 +31,11 @@
     "url": "git+https://github.com/sqrtox/auto-embed.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "run-s build:lint build:clean build:build build:format",
+    "build:build": "tsx src/build.ts",
+    "build:clean": "rimraf dist",
+    "build:format": "biome format dist/**/* --vcs-use-ignore-file false --fix",
+    "build:lint": "biome lint --error-on-warnings"
   },
   "type": "module",
   "version": "2.0.0"

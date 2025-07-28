@@ -1,0 +1,16 @@
+This project includes icons from Google's Material Symbols,
+which are licensed under the Apache License, Version 2.0.
+
+The icons have been modified for use in this project.
+Modifications include:
+- Color adjustments
+- Size modifications
+- Embedding as Base64 within the source code
+
+Original icons are available at:
+https://fonts.google.com/icons
+
+Copyright 2023 Google LLC
+Licensed under the Apache License, Version 2.0.
+You may obtain a copy of the License at:
+https://www.apache.org/licenses/LICENSE-2.0

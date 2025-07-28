@@ -1,0 +1,8 @@
+{
+  "id": "en-US",
+  "name": "English (United States)",
+  "translations": {
+    "userscript.metadata.description": "A userscript that adds embedded images or videos below URLs.",
+    "userscript.metadata.name": "Auto Embed"
+  }
+}

@@ -1,15 +1,15 @@
 {
+  "editor.defaultFormatter": "biomejs.biome",
   "files.exclude": {
     "**/bun.lock": true
   },
   "json.schemas": [
     {
-      "fileMatch": [
-        "bun.lock"
-      ],
+      "fileMatch": ["bun.lock"],
       "schema": {
         "allowTrailingCommas": true
       }
     }
-  ]
+  ],
+  "typescript.experimental.useTsgo": true
 }

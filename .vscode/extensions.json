@@ -1,7 +1,7 @@
 {
-    "recommendations": [
-        "typescriptteam.native-preview",
-        "editorconfig.editorconfig",
-        "biomejs.biome"
-    ]
+  "recommendations": [
+    "typescriptteam.native-preview",
+    "editorconfig.editorconfig",
+    "biomejs.biome"
+  ]
 }
