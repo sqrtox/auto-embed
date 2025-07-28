@@ -4,6 +4,9 @@
     "url": "https://github.com/sqrtox/auto-embed/issues"
   },
   "description": "A userscript that adds embedded images or videos below URLs.",
+  "devDependencies": {
+    "@biomejs/biome": "^2.1.2"
+  },
   "homepage": "https://github.com/sqrtox/auto-embed#readme",
   "keywords": [
     "userscript",

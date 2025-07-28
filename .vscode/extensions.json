@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "typescriptteam.native-preview",
+        "editorconfig.editorconfig",
+        "biomejs.biome"
+    ]
+}
